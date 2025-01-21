@@ -1,0 +1,379 @@
+.cuerpo{
+    background-color: #F5F5F5;
+}
+
+.opciones{
+      display: flex;
+ flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.botonRedes1{
+    border: none;
+    background-color: #F5F5F5;
+
+}
+.botonRedes1:hover{
+    background-color: aqua;
+}
+
+.botonRedes2{
+    border: none;
+    background-color: #F5F5F5;
+
+}
+.botonRedes2:hover{
+    background-color: aqua;
+}
+
+.nombre {
+    font-size: 15px;
+    margin-left: 100px;
+   margin-right: 380px;
+}
+
+.presentacionFlex{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.presentacion{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.presentacionTitulo{
+    font-size: 35px;
+}
+
+.presentacionParrafo{
+    font-size: 18px;
+    
+}
+
+.redes{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botonRedes{
+    border: none;
+    background-color: #F5F5F5;
+
+}
+.botonRedes:hover{
+    background-color: aqua;
+}
+
+.botonRedes:active{
+    background-color: #FFFFFF;
+}
+
+.foto{
+    height: 300px;
+    border-radius: 50%;
+       
+}
+
+.sobreMi{
+    background-color: #EAF2FD;
+    padding: 50px 100px 50px 100px;
+}
+
+.sobreMiParrafo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opcion{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes{
+    height: 24px;
+  
+}
+
+
+
+.cuadro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cuadro2{
+    display: flex;
+    background-color: #FFFFFF;
+   width: 100px;
+   height: 100px;
+   padding: 0px 0px 10px 10px;
+    align-items: start;
+    flex-direction: column-reverse;
+}
+
+.cuadroEstudios{
+display: flex;
+justify-content: space-around;
+}
+
+.estudiosLogo{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 300px;
+}
+.estudio{
+font-size: 18px;
+}
+
+.terminacion{
+font-size: 12px;
+}
+
+.proyectosImagen{
+width: 800px;
+height: 500px;
+margin-right: 150px;
+
+}
+
+.cuadroProyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+
+.opcionesProyectos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+right: 300px;
+line-height: 1%;
+}
+
+
+.boton{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(142, 142, 206);
+    color: #FFFFFF;
+}
+
+.boton:active{
+    background-color: aqua;
+}
+
+.posicionBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 400px;
+    top: 5px;
+}
+
+.imagenContacto{
+    height: 450px;
+    width: 450px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.rellenar{
+    width: 700px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.rellenar2{
+    width: 700px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+.cajaContacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+margin-top: 20px;
+background-color: #EAF2FD;
+}
+
+.botonContacto{
+    background-color: blue;
+    color: #FFFFFF;
+    height: 50px;
+    width: 150px;
+}
+
+.botonContacto:active{
+    background-color: aqua;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px){
+    .botonRedes1{
+        display: none;
+    }
+    .botonRedes2{
+        display: none;
+    }
+ .presentacionFlex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ .botonRedes2{
+    position: relative;
+    right: 200px;
+ }
+
+ .cuadro2{
+    margin-left: 20px;
+    
+    
+ }
+ .cuadro1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .cuadroEstudios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .proyectosImagen{
+    width: 380px;
+ }
+ .cuadroProyectos{
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ .posicionBoton{
+    position: static;
+    margin-left: 10px;   
+ }
+
+ .opcionesProyectos{
+    position: static;
+    margin-left: 10px;
+ }
+ .imagenContacto{
+    display: none;
+ }
+
+.opciones{
+    display: flex;
+    
+}
+
+.rellenar{
+    width: 250px;
+}
+.rellenar2{
+    width: 250px;
+}
+.botonContacto{
+    margin-left: 55px;
+}
+}
+
+@media only screen and (max-width: 1200px){
+    .botonRedes1{
+        display: none;
+    }
+    .botonRedes2{
+        display: none;
+    }
+ .presentacionFlex{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ .botonRedes2{
+    position: relative;
+    right: 200px;
+ }
+
+ .cuadro2{
+    margin-left: 20px;
+    
+    
+ }
+ .cuadro1{
+    display: flex;
+    
+ }
+
+ .cuadroEstudios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .proyectosImagen{
+    width: 750px;
+ }
+ .cuadroProyectos{
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ .posicionBoton{
+    position: static;
+    margin-left: 10px;   
+ }
+
+ .opcionesProyectos{
+    position: static;
+    margin-left: 10px;
+ }
+ .imagenContacto{
+    display: none;
+ }
+
+.opciones{
+    display: flex;
+    
+}
+
+.rellenar{
+    width: 250px;
+}
+.rellenar2{
+    width: 250px;
+}
+.botonContacto{
+    margin-left: 55px;
+}
+
+}
